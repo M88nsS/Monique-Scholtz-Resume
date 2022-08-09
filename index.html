@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monique_Scholtz</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Monique Scholtz Resume">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			content: 'MOONS';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">MONIQUE</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#education">Education</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hello, I’m Monique...
+                ...you can call me Moons</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="mon-img.png" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I live in<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					Lover of good music, colorful food and dark roast coffee. I like following the phases of the moon.
+                    When I'm not working on a project - I play outside around big mountains - hike - climb - fly.
+                    Programming is a newly found passion so the love runs strong, building a solid foundation to make this a life-long success.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>2012-2022</li>
+				<li>Various Locations</li>
+				<li>Swimming Instructor and English Teacher</li>
+			</ul>
+			<ul class="work-list">
+				<li>2022-Only Time Will Tell</li>
+				<li>NEW AWSOME JOB</li>
+				<li>JUNIOR PROGAMMER</li>
+			</ul>
+		</div>
+	</div>
+
+    <!-- Education -->
+	<div class="education section second" id="education">
+		<div class="container">
+			<h1>Education</h1>
+			<ul class="education-list list-flat">
+				<li>August 2021</li>
+				<li><a href="https://www.freecodecamp.org/certification/fcc4ac7964a-dd07-4489-8624-49c0bec2d73e/responsive-web-design">Responsive Web Design</a></li>
+				<li>freeCodeCamp</li>
+			</ul>
+			<ul class="education-list list-flat">
+				<li>August 2022</li>
+				<li>Software Enginering</li>
+				<li>HyperionDev</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Software Technology</li>
+				<li>Python / Java</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>Programmer : an organism that converts caffeine into code, usually late at night.</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Thank you for your time</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:scholtzm888@mail.com" target="blank"><i class="fa fa-send"></i></a></li>
+						<li><a href="www.linkedin.com/in/monique-scholtz" target="blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/M88nsS" target="blank"><i class="fa fa-github"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+    <!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Cape Town", "South Africa", "Planet Earth"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
